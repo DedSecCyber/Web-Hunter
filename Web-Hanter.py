@@ -15,7 +15,7 @@ print "     [03]> sqlmap"
 print
 A = input("Web-Hunter >>> ")
 
-if A == 1 or A == 1 :
+if A == 1 or A == 01 :
   Nmap = raw_input("Target Host/Ip >>> ")
   os.system("nmap %s" %(Nmap))
   timeout(15)
